@@ -1,10 +1,6 @@
-import { Button } from '@mui/material'
+import { AppProps } from 'single-spa'
+import FormController from './components/FormController'
 
-export default function Root(props) {
-  return (
-    <section>
-      {props.name} is mounted!
-      <Button>Hello!</Button>
-    </section>
-  )
+export default function Root(props: AppProps) {
+  return <FormController />
 }
