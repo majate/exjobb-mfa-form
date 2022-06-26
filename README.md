@@ -1,7 +1,7 @@
 # Exjobb MFA - Form micro frontend
 This is the "Form" micro frontend for a [single-spa](https://single-spa.js.org/) micro frontend application developed for a degree project at KTH.
 
-Each micro frontends used by this application has its own repo (this repo only contains one of the micro frontends). If you want to run the entire application, you need to install/build/run all of the micro frontends as well as the root configuration.
+Each micro frontend used by this application has its own repo (this repo only contains one of the micro frontends). If you want to run the entire application, you need to install/build/run all of the micro frontends as well as the root configuration.
 
 The code for the other parts can be found here:
 - [The root configuration](https://github.com/majate/exjobb-mfa-root)
@@ -30,7 +30,7 @@ To see the component, you must start the root configuration and open it in a bro
 ```
 npm run build
 ```
-Builds the project and places the output in `dist/`.
+Builds this micro frontend and places the output in `dist/`.
 
 ## Run in production mode
 See the [instructions](https://github.com/majate/exjobb-mfa-root) for the root configuration.
