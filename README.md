@@ -6,6 +6,8 @@ Each micro frontend used by this application has its own repo (this repo only co
 The code for the other parts can be found here:
 - [The root configuration](https://github.com/majate/exjobb-mfa-root)
 - [The header micro frontend](https://github.com/majate/exjobb-mfa-header)
+- [The home micro frontend](https://github.com/majate/exjobb-mfa-home)
+- [The feed micro frontend](https://github.com/majate/exjobb-mfa-feed)
 
 ## Installation
 1. Ensure that you have [Node](https://nodejs.org/en/) and npm installed on your system.
